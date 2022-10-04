@@ -617,14 +617,14 @@ namespace pd80_hqbloom
                 c             = cos( radians( degrees )) * uv.x;
                 s             = sin( radians( degreesY )) * uv.y;
             }
-            break;
+            //break;
             // Longitudinal: X = Y w/o multiplying with uv.xy
             case 1:
             {
                 c             = cos( radians( degrees ));
                 s             = sin( radians( degreesY ));
             }
-            break;
+            //break;
             // Full screen Radial
             case 2:
             {
@@ -633,7 +633,7 @@ namespace pd80_hqbloom
                 c             = cos( radians( degrees )) * uv.x;
                 s             = sin( radians( degreesY )) * uv.y;
             }
-            break;
+            //break;
             // Full screen Longitudinal
             case 3:
             {
@@ -641,7 +641,7 @@ namespace pd80_hqbloom
                 c             = cos( radians( degrees ));
                 s             = sin( radians( degreesY ));
             }
-            break;
+            //break;
         }
 
         float3 huecolor   = 0.0f;
