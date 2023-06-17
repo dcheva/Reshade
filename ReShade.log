@@ -1,994 +1,186 @@
-20:53:42:824 [09696] | INFO  | Initializing crosire's ReShade version '5.8.0.1726' (64-bit) loaded from "C:\ProgramData\ReShade\ReShade64.dll" into "C:\games\No Man's Sky Box\Binaries\NMS.exe" ...
-20:53:42:825 [09696] | INFO  | Registering hooks for "user32.dll" ...
-20:53:42:825 [09696] | INFO  | > Libraries loaded.
-20:53:42:826 [09696] | INFO  | > Found 14 match(es). Installing ...
-20:53:42:838 [09696] | INFO  | Registering hooks for "ws2_32.dll" ...
-20:53:42:838 [09696] | INFO  | > Libraries loaded.
-20:53:42:839 [09696] | INFO  | > Found 8 match(es). Installing ...
-20:53:42:848 [09696] | INFO  | Registering hooks for "C:\Windows\system32\d2d1.dll" ...
-20:53:42:849 [09696] | INFO  | > Delayed.
-20:53:42:849 [09696] | INFO  | Registering hooks for "C:\Windows\system32\d3d9.dll" ...
-20:53:42:849 [09696] | INFO  | > Delayed.
-20:53:42:850 [09696] | INFO  | Registering hooks for "C:\Windows\system32\d3d10.dll" ...
-20:53:42:850 [09696] | INFO  | > Delayed.
-20:53:42:850 [09696] | INFO  | Registering hooks for "C:\Windows\system32\d3d10_1.dll" ...
-20:53:42:850 [09696] | INFO  | > Delayed.
-20:53:42:851 [09696] | INFO  | Registering hooks for "C:\Windows\system32\d3d11.dll" ...
-20:53:42:851 [09696] | INFO  | > Delayed.
-20:53:42:851 [09696] | INFO  | Registering hooks for "C:\Windows\system32\d3d12.dll" ...
-20:53:42:851 [09696] | INFO  | > Delayed.
-20:53:42:851 [09696] | INFO  | Registering hooks for "C:\Windows\system32\dxgi.dll" ...
-20:53:42:852 [09696] | INFO  | > Libraries loaded.
-20:53:42:852 [09696] | INFO  | > Found 5 match(es). Installing ...
-20:53:42:862 [09696] | INFO  | Registering hooks for "C:\Windows\system32\opengl32.dll" ...
-20:53:42:862 [09696] | INFO  | > Delayed.
-20:53:42:863 [09696] | INFO  | Registering hooks for "vrclient_x64.dll" ...
-20:53:42:863 [09696] | INFO  | > Delayed.
-20:53:42:863 [09696] | INFO  | Registering hooks for "C:\Windows\system32\dinput.dll" ...
-20:53:42:863 [09696] | INFO  | > Delayed.
-20:53:42:863 [09696] | INFO  | Initialized.
-20:53:42:864 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FF150) ...
-20:53:42:864 [09696] | INFO  | Redirecting vkCreateInstance(pCreateInfo = 0000001D820FF0B0, pAllocator = 0000000000000000, pInstance = 0000001D820FF450) ...
-20:53:42:864 [09696] | INFO  | > Dumping enabled instance extensions:
-20:53:42:864 [09696] | INFO  |   VK_KHR_surface
-20:53:42:864 [09696] | INFO  |   VK_KHR_get_physical_device_properties2
-20:53:42:864 [09696] | INFO  |   VK_EXT_debug_utils
-20:53:42:864 [09696] | INFO  |   VK_KHR_surface
-20:53:42:865 [09696] | INFO  |   VK_KHR_win32_surface
-20:53:42:865 [09696] | INFO  |   VK_KHR_get_physical_device_properties2
-20:53:42:866 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 0000001D820FB198) ...
-20:53:42:869 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 0000001D820FB198) ...
-20:53:42:870 [09696] | INFO  | > Requesting new Vulkan instance for API version 1.1.
-20:53:48:629 [09696] | INFO  | Redirecting vkCreateWin32SurfaceKHR(instance = 000001AB5BDF2440, pCreateInfo = 0000001D820FE7B0, pAllocator = 0000000000000000, pSurface = 00007FF6B44CA570) ...
-20:53:48:630 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FBEE0) ...
-20:53:48:631 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FBEE0) ...
-20:53:48:631 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FBED0) ...
-20:53:48:632 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FBED0) ...
-20:53:48:632 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FBEE0) ...
-20:53:48:632 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FBEE0) ...
-20:53:48:633 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FBED0) ...
-20:53:48:633 [09696] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 0000001D820FBED0) ...
-20:53:48:636 [09696] | INFO  | Redirecting vkCreateDevice(physicalDevice = 000001AB5FEE9B00, pCreateInfo = 0000001D820FC430, pAllocator = 0000000000000000, pDevice = 0000001D820FC3E8) ...
-20:53:48:636 [09696] | INFO  | > Dumping enabled device extensions:
-20:53:48:636 [09696] | INFO  |   VK_KHR_swapchain
-20:53:48:637 [09696] | INFO  |   VK_EXT_shader_subgroup_ballot
-20:53:48:637 [09696] | INFO  |   VK_EXT_hdr_metadata
-20:53:48:637 [09696] | INFO  |   VK_KHR_maintenance1
-20:53:48:637 [09696] | INFO  |   VK_EXT_memory_budget
-20:53:48:637 [09696] | INFO  |   VK_EXT_memory_priority
-20:53:48:637 [09696] | INFO  |   VK_KHR_get_memory_requirements2
-20:53:48:637 [09696] | INFO  |   VK_KHR_dedicated_allocation
-20:53:48:637 [09696] | INFO  |   VK_EXT_full_screen_exclusive
-20:53:48:637 [09696] | INFO  |   VK_NVX_binary_import
-20:53:48:638 [09696] | INFO  |   VK_NVX_image_view_handle
-20:53:48:638 [09696] | INFO  |   VK_EXT_buffer_device_address
-20:53:48:638 [09696] | INFO  |   VK_KHR_push_descriptor
-20:53:48:638 [09696] | WARN  | Vulkan queue used for rendering has a low priority (0).
-20:53:49:460 [09696] | INFO  | Redirecting vkCreateSwapchainKHR(device = 000001AC6E6D9090, pCreateInfo = 0000001D820FE130, pAllocator = 0000000000000000, pSwapchain = 00007FF6B44CA578) ...
-20:53:49:462 [09696] | INFO  | > Dumping swap chain description:
-20:53:49:462 [09696] | INFO  |   +-----------------------------------------+-----------------------------------------+
-20:53:49:462 [09696] | INFO  |   | Parameter                               | Value                                   |
-20:53:49:462 [09696] | INFO  |   +-----------------------------------------+-----------------------------------------+
-20:53:49:462 [09696] | INFO  |   | flags                                   | 0x4                                     |
-20:53:49:462 [09696] | INFO  |   | surface                                 | 000001AB5FEFF230                        |
-20:53:49:462 [09696] | INFO  |   | minImageCount                           | 3                                       |
-20:53:49:462 [09696] | INFO  |   | imageFormat                             | VK_FORMAT_B8G8R8A8_UNORM                |
-20:53:49:463 [09696] | INFO  |   | imageColorSpace                         | 0                                       |
-20:53:49:463 [09696] | INFO  |   | imageExtent                             | 1920                1061                |
-20:53:49:463 [09696] | INFO  |   | imageArrayLayers                        | 1                                       |
-20:53:49:463 [09696] | INFO  |   | imageUsage                              | 0x17                                    |
-20:53:49:463 [09696] | INFO  |   | imageSharingMode                        | 0                                       |
-20:53:49:463 [09696] | INFO  |   | queueFamilyIndexCount                   | 0                                       |
-20:53:49:463 [09696] | INFO  |   | preTransform                            | 0x1                                     |
-20:53:49:463 [09696] | INFO  |   | compositeAlpha                          | 0x1                                     |
-20:53:49:464 [09696] | INFO  |   | presentMode                             | 2                                       |
-20:53:49:464 [09696] | INFO  |   | clipped                                 | false                                   |
-20:53:49:464 [09696] | INFO  |   | oldSwapchain                            | 0000000000000000                        |
-20:53:49:464 [09696] | INFO  |   +-----------------------------------------+-----------------------------------------+
-20:53:49:466 [09696] | INFO  | Installing delayed hooks for "C:\Windows\system32\opengl32.dll" (Just loaded via LoadLibrary("C:\Windows\SYSTEM32\GLU32.dll")) ...
-20:53:49:467 [09696] | INFO  | > Found 360 match(es). Installing ...
-20:53:49:497 [09696] | INFO  | Redirecting wglSetPixelFormat(hdc = FFFFFFFFC6011508, iPixelFormat = 1, ppfd = 0000001D820FC210) ...
-20:53:49:706 [09696] | INFO  | Running on NVIDIA GeForce GTX 1660 Driver 531.41.
-20:53:49:708 [09696] | INFO  | Recreated runtime environment on runtime 000001ACDFB74370 ("C:\ProgramData\ReShade\ReShade.ini").
-20:53:49:712 [09696] | INFO  | Redirecting vkDestroySwapchainKHR(000001AC6E6D9090, 000001AB410FBD10, 0000000000000000) ...
-20:53:49:712 [09696] | INFO  | Destroyed runtime environment on runtime 000001ACDFB74370 ("C:\ProgramData\ReShade\ReShade.ini").
-20:53:49:717 [09696] | INFO  | Redirecting vkCreateSwapchainKHR(device = 000001AC6E6D9090, pCreateInfo = 0000001D820FE130, pAllocator = 0000000000000000, pSwapchain = 00007FF6B44CA578) ...
-20:53:49:717 [09696] | INFO  | > Dumping swap chain description:
-20:53:49:717 [09696] | INFO  |   +-----------------------------------------+-----------------------------------------+
-20:53:49:717 [09696] | INFO  |   | Parameter                               | Value                                   |
-20:53:49:717 [09696] | INFO  |   +-----------------------------------------+-----------------------------------------+
-20:53:49:718 [09696] | INFO  |   | flags                                   | 0x4                                     |
-20:53:49:718 [09696] | INFO  |   | surface                                 | 000001AB5FEFF230                        |
-20:53:49:718 [09696] | INFO  |   | minImageCount                           | 3                                       |
-20:53:49:718 [09696] | INFO  |   | imageFormat                             | VK_FORMAT_B8G8R8A8_UNORM                |
-20:53:49:718 [09696] | INFO  |   | imageColorSpace                         | 0                                       |
-20:53:49:718 [09696] | INFO  |   | imageExtent                             | 1920                1080                |
-20:53:49:718 [09696] | INFO  |   | imageArrayLayers                        | 1                                       |
-20:53:49:718 [09696] | INFO  |   | imageUsage                              | 0x17                                    |
-20:53:49:718 [09696] | INFO  |   | imageSharingMode                        | 0                                       |
-20:53:49:719 [09696] | INFO  |   | queueFamilyIndexCount                   | 0                                       |
-20:53:49:719 [09696] | INFO  |   | preTransform                            | 0x1                                     |
-20:53:49:719 [09696] | INFO  |   | compositeAlpha                          | 0x1                                     |
-20:53:49:719 [09696] | INFO  |   | presentMode                             | 2                                       |
-20:53:49:719 [09696] | INFO  |   | clipped                                 | false                                   |
-20:53:49:719 [09696] | INFO  |   | oldSwapchain                            | 0000000000000000                        |
-20:53:49:719 [09696] | INFO  |   +-----------------------------------------+-----------------------------------------+
-20:53:49:842 [09696] | INFO  | Running on NVIDIA GeForce GTX 1660 Driver 531.41.
-20:53:49:843 [09696] | INFO  | Recreated runtime environment on runtime 000001AB59802BC0 ("C:\ProgramData\ReShade\ReShade.ini").
-20:59:21:996 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.007 s.
-20:59:21:997 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.008 s.
-20:59:21:997 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.008 s.
-20:59:22:005 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.007 s.
-20:59:22:005 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.007 s.
-20:59:22:006 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.016 s.
-20:59:22:009 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.012 s.
-20:59:22:011 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.006 s.
-20:59:22:013 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.023 s.
-20:59:22:016 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.004 s.
-20:59:22:017 [05692] | WARN  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx" in 0.011 s with warnings:
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(408, 33): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(410, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(411, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(412, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(413, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(416, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(417, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(418, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(419, 17): warning X3206: implicit truncation of vector type
-
-20:59:22:018 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.012 s.
-20:59:22:018 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.009 s.
-20:59:22:020 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.007 s.
-20:59:22:021 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.004 s.
-20:59:22:024 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.006 s.
-20:59:22:025 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.007 s.
-20:59:22:028 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.006 s.
-20:59:22:031 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.013 s.
-20:59:22:032 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.006 s.
-20:59:22:032 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.011 s.
-20:59:22:033 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.004 s.
-20:59:22:033 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.008 s.
-20:59:22:037 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.005 s.
-20:59:22:040 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.006 s.
-20:59:22:043 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.011 s.
-20:59:22:043 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.009 s.
-20:59:22:046 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.005 s.
-20:59:22:051 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.004 s.
-20:59:22:053 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.02 s.
-20:59:22:054 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.009 s.
-20:59:22:056 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.012 s.
-20:59:22:059 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.006 s.
-20:59:22:062 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.024 s.
-20:59:22:062 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.006 s.
-20:59:22:065 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.01 s.
-20:59:22:067 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.004 s.
-20:59:22:067 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.007 s.
-20:59:22:072 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.02 s.
-20:59:22:072 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.005 s.
-20:59:22:073 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.007 s.
-20:59:22:074 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.012 s.
-20:59:22:076 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.009 s.
-20:59:22:078 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.005 s.
-20:59:22:079 [04204] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.006 s.
-20:59:22:082 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.007 s.
-20:59:22:083 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.004 s.
-20:59:22:086 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.009 s.
-20:59:22:088 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.014 s.
-20:59:22:089 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.005 s.
-20:59:22:090 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.007 s.
-20:59:22:097 [08524] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.007 s.
-20:59:22:097 [05692] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.008 s.
-20:59:22:098 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.011 s.
-20:59:22:103 [09160] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.012 s.
-20:59:22:104 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.005 s.
-20:59:22:104 [05692] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.007 s with warnings:
+21:50:55:127 [05536] | INFO  | Initializing crosire's ReShade version '5.8.0.1726' (64-bit) loaded from "C:\ProgramData\ReShade\ReShade64.dll" into "C:\games\No Man's Sky Box\Binaries\NMS.exe" ...
+21:50:55:127 [05536] | INFO  | Registering hooks for "user32.dll" ...
+21:50:55:127 [05536] | INFO  | > Libraries loaded.
+21:50:55:128 [05536] | INFO  | > Found 14 match(es). Installing ...
+21:50:55:142 [05536] | INFO  | Registering hooks for "ws2_32.dll" ...
+21:50:55:142 [05536] | INFO  | > Libraries loaded.
+21:50:55:142 [05536] | INFO  | > Found 8 match(es). Installing ...
+21:50:55:154 [05536] | INFO  | Registering hooks for "C:\Windows\system32\d2d1.dll" ...
+21:50:55:155 [05536] | INFO  | > Delayed.
+21:50:55:155 [05536] | INFO  | Registering hooks for "C:\Windows\system32\d3d9.dll" ...
+21:50:55:155 [05536] | INFO  | > Delayed.
+21:50:55:155 [05536] | INFO  | Registering hooks for "C:\Windows\system32\d3d10.dll" ...
+21:50:55:156 [05536] | INFO  | > Delayed.
+21:50:55:156 [05536] | INFO  | Registering hooks for "C:\Windows\system32\d3d10_1.dll" ...
+21:50:55:156 [05536] | INFO  | > Delayed.
+21:50:55:156 [05536] | INFO  | Registering hooks for "C:\Windows\system32\d3d11.dll" ...
+21:50:55:156 [05536] | INFO  | > Delayed.
+21:50:55:157 [05536] | INFO  | Registering hooks for "C:\Windows\system32\d3d12.dll" ...
+21:50:55:157 [05536] | INFO  | > Delayed.
+21:50:55:157 [05536] | INFO  | Registering hooks for "C:\Windows\system32\dxgi.dll" ...
+21:50:55:157 [05536] | INFO  | > Libraries loaded.
+21:50:55:157 [05536] | INFO  | > Found 5 match(es). Installing ...
+21:50:55:169 [05536] | INFO  | Registering hooks for "C:\Windows\system32\opengl32.dll" ...
+21:50:55:170 [05536] | INFO  | > Delayed.
+21:50:55:170 [05536] | INFO  | Registering hooks for "vrclient_x64.dll" ...
+21:50:55:170 [05536] | INFO  | > Delayed.
+21:50:55:170 [05536] | INFO  | Registering hooks for "C:\Windows\system32\dinput.dll" ...
+21:50:55:170 [05536] | INFO  | > Delayed.
+21:50:55:170 [05536] | INFO  | Initialized.
+21:50:55:171 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FF260) ...
+21:50:55:171 [05536] | INFO  | Redirecting vkCreateInstance(pCreateInfo = 000000BFCB0FF1C0, pAllocator = 0000000000000000, pInstance = 000000BFCB0FF560) ...
+21:50:55:171 [05536] | INFO  | > Dumping enabled instance extensions:
+21:50:55:171 [05536] | INFO  |   VK_KHR_surface
+21:50:55:171 [05536] | INFO  |   VK_KHR_get_physical_device_properties2
+21:50:55:171 [05536] | INFO  |   VK_EXT_debug_utils
+21:50:55:171 [05536] | INFO  |   VK_KHR_surface
+21:50:55:171 [05536] | INFO  |   VK_KHR_win32_surface
+21:50:55:171 [05536] | INFO  |   VK_KHR_get_physical_device_properties2
+21:50:55:173 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000BFCB0FB2A8) ...
+21:50:55:176 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000BFCB0FB2A8) ...
+21:50:55:177 [05536] | INFO  | > Requesting new Vulkan instance for API version 1.1.
+21:51:00:941 [05536] | INFO  | Redirecting vkCreateWin32SurfaceKHR(instance = 0000025489902040, pCreateInfo = 000000BFCB0FE8C0, pAllocator = 0000000000000000, pSurface = 00007FF6B44CA570) ...
+21:51:00:943 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FBFF0) ...
+21:51:00:943 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FBFF0) ...
+21:51:00:944 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FBFE0) ...
+21:51:00:944 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FBFE0) ...
+21:51:00:944 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FBFF0) ...
+21:51:00:945 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FBFF0) ...
+21:51:00:945 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FBFE0) ...
+21:51:00:945 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {C1B6694F-FF09-44A9-B03C-77900A0A1D17}, ppFactory = 000000BFCB0FBFE0) ...
+21:51:00:948 [05536] | INFO  | Redirecting vkCreateDevice(physicalDevice = 0000025489FF8660, pCreateInfo = 000000BFCB0FC540, pAllocator = 0000000000000000, pDevice = 000000BFCB0FC4F8) ...
+21:51:00:948 [05536] | INFO  | > Dumping enabled device extensions:
+21:51:00:949 [05536] | INFO  |   VK_KHR_swapchain
+21:51:00:949 [05536] | INFO  |   VK_EXT_shader_subgroup_ballot
+21:51:00:949 [05536] | INFO  |   VK_EXT_hdr_metadata
+21:51:00:949 [05536] | INFO  |   VK_KHR_maintenance1
+21:51:00:949 [05536] | INFO  |   VK_EXT_memory_budget
+21:51:00:949 [05536] | INFO  |   VK_EXT_memory_priority
+21:51:00:949 [05536] | INFO  |   VK_KHR_get_memory_requirements2
+21:51:00:949 [05536] | INFO  |   VK_KHR_dedicated_allocation
+21:51:00:950 [05536] | INFO  |   VK_EXT_full_screen_exclusive
+21:51:00:950 [05536] | INFO  |   VK_NVX_binary_import
+21:51:00:950 [05536] | INFO  |   VK_NVX_image_view_handle
+21:51:00:950 [05536] | INFO  |   VK_EXT_buffer_device_address
+21:51:00:950 [05536] | INFO  |   VK_KHR_push_descriptor
+21:51:00:950 [05536] | WARN  | Vulkan queue used for rendering has a low priority (0).
+21:51:01:404 [05536] | INFO  | Installing delayed hooks for "C:\Windows\system32\d3d11.dll" (Just loaded via LoadLibrary("C:\Windows\SYSTEM32\WindowsCodecs.dll")) ...
+21:51:01:406 [05536] | INFO  | > Found 3 match(es). Installing ...
+21:51:01:467 [05536] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000BFCB0F9AA8) ...
+21:51:02:330 [05536] | INFO  | Redirecting vkCreateSwapchainKHR(device = 000002563E7124A0, pCreateInfo = 000000BFCB0FE240, pAllocator = 0000000000000000, pSwapchain = 00007FF6B44CA578) ...
+21:51:02:331 [05536] | INFO  | > Dumping swap chain description:
+21:51:02:331 [05536] | INFO  |   +-----------------------------------------+-----------------------------------------+
+21:51:02:332 [05536] | INFO  |   | Parameter                               | Value                                   |
+21:51:02:332 [05536] | INFO  |   +-----------------------------------------+-----------------------------------------+
+21:51:02:332 [05536] | INFO  |   | flags                                   | 0x4                                     |
+21:51:02:332 [05536] | INFO  |   | surface                                 | 0000025489FF4050                        |
+21:51:02:333 [05536] | INFO  |   | minImageCount                           | 3                                       |
+21:51:02:333 [05536] | INFO  |   | imageFormat                             | VK_FORMAT_B8G8R8A8_UNORM                |
+21:51:02:333 [05536] | INFO  |   | imageColorSpace                         | 0                                       |
+21:51:02:333 [05536] | INFO  |   | imageExtent                             | 1920                1061                |
+21:51:02:333 [05536] | INFO  |   | imageArrayLayers                        | 1                                       |
+21:51:02:333 [05536] | INFO  |   | imageUsage                              | 0x17                                    |
+21:51:02:333 [05536] | INFO  |   | imageSharingMode                        | 0                                       |
+21:51:02:333 [05536] | INFO  |   | queueFamilyIndexCount                   | 0                                       |
+21:51:02:333 [05536] | INFO  |   | preTransform                            | 0x1                                     |
+21:51:02:333 [05536] | INFO  |   | compositeAlpha                          | 0x1                                     |
+21:51:02:334 [05536] | INFO  |   | presentMode                             | 2                                       |
+21:51:02:334 [05536] | INFO  |   | clipped                                 | false                                   |
+21:51:02:334 [05536] | INFO  |   | oldSwapchain                            | 0000000000000000                        |
+21:51:02:334 [05536] | INFO  |   +-----------------------------------------+-----------------------------------------+
+21:51:02:336 [05536] | INFO  | Installing delayed hooks for "C:\Windows\system32\opengl32.dll" (Just loaded via LoadLibrary("C:\Windows\SYSTEM32\GLU32.dll")) ...
+21:51:02:336 [05536] | INFO  | > Found 360 match(es). Installing ...
+21:51:02:364 [05536] | INFO  | Redirecting wglSetPixelFormat(hdc = FFFFFFFFC2011295, iPixelFormat = 1, ppfd = 000000BFCB0FC2C0) ...
+21:51:02:549 [05536] | INFO  | Running on NVIDIA GeForce GTX 1660 Driver 536.23.
+21:51:02:562 [05536] | INFO  | Recreated runtime environment on runtime 000002564B2B8740 ("C:\ProgramData\ReShade\ReShade.ini").
+21:51:02:566 [05536] | INFO  | Redirecting vkDestroySwapchainKHR(000002563E7124A0, 00000256487EAFE0, 0000000000000000) ...
+21:51:02:566 [05536] | INFO  | Destroyed runtime environment on runtime 000002564B2B8740 ("C:\ProgramData\ReShade\ReShade.ini").
+21:51:02:571 [05536] | INFO  | Redirecting vkCreateSwapchainKHR(device = 000002563E7124A0, pCreateInfo = 000000BFCB0FE240, pAllocator = 0000000000000000, pSwapchain = 00007FF6B44CA578) ...
+21:51:02:571 [05536] | INFO  | > Dumping swap chain description:
+21:51:02:571 [05536] | INFO  |   +-----------------------------------------+-----------------------------------------+
+21:51:02:571 [05536] | INFO  |   | Parameter                               | Value                                   |
+21:51:02:571 [05536] | INFO  |   +-----------------------------------------+-----------------------------------------+
+21:51:02:571 [05536] | INFO  |   | flags                                   | 0x4                                     |
+21:51:02:572 [05536] | INFO  |   | surface                                 | 0000025489FF4050                        |
+21:51:02:572 [05536] | INFO  |   | minImageCount                           | 3                                       |
+21:51:02:572 [05536] | INFO  |   | imageFormat                             | VK_FORMAT_B8G8R8A8_UNORM                |
+21:51:02:572 [05536] | INFO  |   | imageColorSpace                         | 0                                       |
+21:51:02:572 [05536] | INFO  |   | imageExtent                             | 1920                1080                |
+21:51:02:572 [05536] | INFO  |   | imageArrayLayers                        | 1                                       |
+21:51:02:572 [05536] | INFO  |   | imageUsage                              | 0x17                                    |
+21:51:02:573 [05536] | INFO  |   | imageSharingMode                        | 0                                       |
+21:51:02:573 [05536] | INFO  |   | queueFamilyIndexCount                   | 0                                       |
+21:51:02:573 [05536] | INFO  |   | preTransform                            | 0x1                                     |
+21:51:02:573 [05536] | INFO  |   | compositeAlpha                          | 0x1                                     |
+21:51:02:573 [05536] | INFO  |   | presentMode                             | 2                                       |
+21:51:02:573 [05536] | INFO  |   | clipped                                 | false                                   |
+21:51:02:573 [05536] | INFO  |   | oldSwapchain                            | 0000000000000000                        |
+21:51:02:573 [05536] | INFO  |   +-----------------------------------------+-----------------------------------------+
+21:51:02:697 [05536] | INFO  | Running on NVIDIA GeForce GTX 1660 Driver 536.23.
+21:51:02:701 [05536] | INFO  | Recreated runtime environment on runtime 000002564B2B8740 ("C:\ProgramData\ReShade\ReShade.ini").
+21:51:03:055 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
+21:51:03:055 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.003 s.
+21:51:03:055 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.003 s.
+21:51:03:058 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
+21:51:03:059 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
+21:51:03:059 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.002 s.
+21:51:03:061 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
+21:51:03:061 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.008 s.
+21:51:03:061 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.003 s.
+21:51:03:063 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
+21:51:03:064 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.002 s.
+21:51:03:064 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
+21:51:03:065 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.003 s.
+21:51:03:065 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.005 s.
+21:51:03:066 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.002 s.
+21:51:03:066 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
+21:51:03:067 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
+21:51:03:069 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.003 s.
+21:51:03:071 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.004 s.
+21:51:03:072 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.001 s.
+21:51:03:073 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.007 s.
+21:51:03:073 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.006 s.
+21:51:03:074 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.008 s.
+21:51:03:074 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
+21:51:03:076 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.005 s.
+21:51:03:077 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
+21:51:03:077 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
+21:51:03:079 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
+21:51:03:079 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.003 s.
+21:51:03:079 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.005 s.
+21:51:03:082 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
+21:51:03:085 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.005 s.
+21:51:03:086 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.012 s.
+21:51:03:087 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
+21:51:03:087 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.005 s.
+21:51:03:088 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.003 s.
+21:51:03:088 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.011 s.
+21:51:03:089 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
+21:51:03:090 [11008] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.002 s.
+21:51:03:090 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.001 s.
+21:51:03:092 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.004 s.
+21:51:03:092 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
+21:51:03:093 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
+21:51:03:095 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.002 s.
+21:51:03:095 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
+21:51:03:096 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.007 s.
+21:51:03:096 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.002 s.
+21:51:03:097 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
+21:51:03:100 [01620] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.002 s.
+21:51:03:101 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.005 s.
+21:51:03:102 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.006 s.
+21:51:03:105 [11004] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.009 s.
+21:51:03:105 [01636] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
 warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
 warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
 
-20:59:22:109 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.005 s.
-21:01:52:219 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
-21:01:52:219 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.002 s.
-21:01:52:220 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.002 s.
-21:01:52:224 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
-21:01:52:225 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.007 s.
-21:01:52:226 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:01:52:226 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.002 s.
-21:01:52:228 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.003 s.
-21:01:52:229 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:01:52:229 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
-21:01:52:230 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.001 s.
-21:01:52:230 [06044] | WARN  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx" in 0.006 s with warnings:
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(408, 33): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(410, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(411, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(412, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(413, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(416, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(417, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(418, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(419, 17): warning X3206: implicit truncation of vector type
-
-21:01:52:231 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.005 s.
-21:01:52:232 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.002 s.
-21:01:52:232 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
-21:01:52:233 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.002 s.
-21:01:52:234 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.006 s.
-21:01:52:235 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:01:52:235 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.002 s.
-21:01:52:237 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.001 s.
-21:01:52:237 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.003 s.
-21:01:52:237 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:01:52:238 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:01:52:241 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.003 s.
-21:01:52:242 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.003 s.
-21:01:52:243 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:01:52:244 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.006 s.
-21:01:52:245 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:01:52:245 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.007 s.
-21:01:52:246 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.01 s.
-21:01:52:247 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.002 s.
-21:01:52:248 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
-21:01:52:251 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.005 s.
-21:01:52:252 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:01:52:252 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.005 s.
-21:01:52:252 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.009 s.
-21:01:52:253 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:01:52:253 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:01:52:255 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.002 s.
-21:01:52:255 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.001 s.
-21:01:52:255 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.002 s.
-21:01:52:255 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.002 s.
-21:01:52:256 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:01:52:258 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.004 s.
-21:01:52:258 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.001 s.
-21:01:52:260 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:01:52:260 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.004 s.
-21:01:52:262 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:01:52:263 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.007 s.
-21:01:52:263 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.002 s.
-21:01:52:265 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:01:52:266 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.002 s.
-21:01:52:266 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:01:52:267 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.003 s.
-21:01:52:268 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:01:52:271 [06044] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.003 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:01:52:271 [03272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:01:52:272 [04140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.006 s.
-21:02:11:689 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.004 s.
-21:02:11:694 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.009 s.
-21:02:11:695 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.01 s.
-21:02:11:698 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.004 s.
-21:02:11:699 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.014 s.
-21:02:11:700 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.015 s.
-21:02:11:701 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.004 s.
-21:02:11:702 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.003 s.
-21:02:11:705 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.008 s.
-21:02:11:706 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.003 s.
-21:02:11:706 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.005 s.
-21:02:11:709 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.007 s.
-21:02:11:709 [09780] | WARN  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx" in 0.009 s with warnings:
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(408, 33): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(410, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(411, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(412, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(413, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(416, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(417, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(418, 17): warning X3206: implicit truncation of vector type
-C:\Projects\Reshade\3areal-shaders\Shaders\Comic.fx(419, 17): warning X3206: implicit truncation of vector type
-
-21:02:11:710 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.003 s.
-21:02:11:712 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.006 s.
-21:02:11:714 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.005 s.
-21:02:11:716 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.005 s.
-21:02:11:717 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.01 s.
-21:02:11:717 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.004 s.
-21:02:11:718 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.009 s.
-21:02:11:720 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.003 s.
-21:02:11:720 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.005 s.
-21:02:11:722 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.005 s.
-21:02:11:722 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.003 s.
-21:02:11:725 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.004 s.
-21:02:11:728 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.008 s.
-21:02:11:730 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.005 s.
-21:02:11:732 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.009 s.
-21:02:11:734 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.003 s.
-21:02:11:734 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.017 s.
-21:02:11:735 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.006 s.
-21:02:11:740 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.005 s.
-21:02:11:740 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.017 s.
-21:02:11:742 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.009 s.
-21:02:11:743 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.008 s.
-21:02:11:744 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.003 s.
-21:02:11:747 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.004 s.
-21:02:11:748 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.013 s.
-21:02:11:748 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.007 s.
-21:02:11:749 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.004 s.
-21:02:11:749 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.005 s.
-21:02:11:752 [08396] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.003 s.
-21:02:11:753 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.003 s.
-21:02:11:753 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.005 s.
-21:02:11:756 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.008 s.
-21:02:11:756 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.003 s.
-21:02:11:761 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.004 s.
-21:02:11:762 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.008 s.
-21:02:11:762 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.012 s.
-21:02:11:763 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.006 s.
-21:02:11:768 [07736] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.005 s.
-21:02:11:770 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.006 s.
-21:02:11:770 [09780] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.008 s.
-21:02:11:773 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.009 s.
-21:02:11:778 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.005 s.
-21:02:11:779 [09780] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.008 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:02:11:783 [07544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.004 s.
-21:02:11:783 [08240] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.012 s.
-21:02:36:954 [09696] | INFO  | Resizing image data for texture 'V__texBDirt' from 4096x2048 to 1920x1080.
-21:02:40:964 [09696] | INFO  | Resizing image data for texture 'V__texBDirt' from 4096x2048 to 1920x1080.
-21:02:43:713 [09696] | INFO  | Resizing image data for texture 'V__texBDirt' from 4096x2048 to 1920x1080.
-21:02:50:619 [09696] | INFO  | Resizing image data for texture 'V__texBDirt' from 4096x2048 to 1920x1080.
-21:03:12:594 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.001 s.
-21:03:12:594 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.002 s.
-21:03:12:595 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.002 s.
-21:03:12:597 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.004 s.
-21:03:12:599 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.006 s.
-21:03:12:602 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:03:12:602 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.003 s.
-21:03:12:603 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.003 s.
-21:03:12:605 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.004 s.
-21:03:12:605 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:03:12:606 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
-21:03:12:606 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:03:12:606 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.001 s.
-21:03:12:607 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.004 s.
-21:03:12:608 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
-21:03:12:608 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.002 s.
-21:03:12:608 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:03:12:609 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.005 s.
-21:03:12:611 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.002 s.
-21:03:12:613 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.003 s.
-21:03:12:613 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.001 s.
-21:03:12:614 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:03:12:614 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.005 s.
-21:03:12:616 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:03:12:616 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
-21:03:12:618 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.005 s.
-21:03:12:618 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:03:12:620 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.005 s.
-21:03:12:620 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.01 s.
-21:03:12:620 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:03:12:621 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.003 s.
-21:03:12:623 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:03:12:623 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
-21:03:12:626 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.004 s.
-21:03:12:626 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:03:12:627 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.009 s.
-21:03:12:628 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:03:12:628 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.004 s.
-21:03:12:629 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.001 s.
-21:03:12:629 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.002 s.
-21:03:12:629 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.002 s.
-21:03:12:630 [02928] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.001 s.
-21:03:12:631 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:03:12:632 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:03:12:633 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.001 s.
-21:03:12:635 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.005 s.
-21:03:12:635 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:03:12:635 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:03:12:637 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.007 s.
-21:03:12:639 [00920] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.002 s.
-21:03:12:641 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.003 s.
-21:03:12:642 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.006 s.
-21:03:12:643 [08676] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.007 s.
-21:03:12:644 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:03:12:645 [08316] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.003 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:03:12:646 [09636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:03:12:647 [08316] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
-21:09:07:999 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
-21:09:08:000 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.003 s.
-21:09:08:001 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.003 s.
-21:09:08:003 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
-21:09:08:006 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:09:08:006 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.008 s.
-21:09:08:006 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.003 s.
-21:09:08:008 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
-21:09:08:009 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:09:08:009 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.002 s.
-21:09:08:009 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:09:08:010 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.003 s.
-21:09:08:011 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.002 s.
-21:09:08:012 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:09:08:012 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.003 s.
-21:09:08:013 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
-21:09:08:015 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.005 s.
-21:09:08:016 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.005 s.
-21:09:08:016 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.003 s.
-21:09:08:019 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.004 s.
-21:09:08:021 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.001 s.
-21:09:08:022 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:09:08:022 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.005 s.
-21:09:08:024 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:09:08:024 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
-21:09:08:026 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.003 s.
-21:09:08:027 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:09:08:028 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.011 s.
-21:09:08:029 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:09:08:029 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.012 s.
-21:09:08:031 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.004 s.
-21:09:08:033 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.004 s.
-21:09:08:034 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.002 s.
-21:09:08:034 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.005 s.
-21:09:08:035 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.01 s.
-21:09:08:036 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:09:08:037 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:09:08:037 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.002 s.
-21:09:08:039 [07564] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.002 s.
-21:09:08:039 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:09:08:040 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.005 s.
-21:09:08:040 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.002 s.
-21:09:08:041 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.006 s.
-21:09:08:041 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.001 s.
-21:09:08:044 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.002 s.
-21:09:08:045 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.005 s.
-21:09:08:046 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.004 s.
-21:09:08:046 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.005 s.
-21:09:08:048 [01736] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.003 s.
-21:09:08:049 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:09:08:051 [05724] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.005 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:09:08:053 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:09:08:053 [05724] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
-21:09:08:054 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:09:08:055 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:09:08:058 [07356] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:09:08:061 [08932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.007 s.
-21:12:27:356 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
-21:12:27:357 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.003 s.
-21:12:27:359 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.005 s.
-21:12:27:359 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.004 s.
-21:12:27:362 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:12:27:362 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.002 s.
-21:12:27:363 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.008 s.
-21:12:27:364 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:12:27:364 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
-21:12:27:365 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:12:27:366 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.002 s.
-21:12:27:366 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.002 s.
-21:12:27:367 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.003 s.
-21:12:27:368 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.003 s.
-21:12:27:368 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.003 s.
-21:12:27:370 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.003 s.
-21:12:27:371 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.005 s.
-21:12:27:373 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.004 s.
-21:12:27:374 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.003 s.
-21:12:27:375 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.007 s.
-21:12:27:376 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.002 s.
-21:12:27:378 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.005 s.
-21:12:27:379 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:12:27:380 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:12:27:381 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.002 s.
-21:12:27:382 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
-21:12:27:382 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:12:27:384 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:12:27:386 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.011 s.
-21:12:27:387 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.004 s.
-21:12:27:389 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
-21:12:27:390 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.003 s.
-21:12:27:391 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.009 s.
-21:12:27:393 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:12:27:392 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:12:27:393 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.024 s.
-21:12:27:395 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.002 s.
-21:12:27:395 [03420] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.002 s.
-21:12:27:397 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.006 s.
-21:12:27:397 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:12:27:398 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.005 s.
-21:12:27:399 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.005 s.
-21:12:27:402 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.003 s.
-21:12:27:403 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.004 s.
-21:12:27:404 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.005 s.
-21:12:27:405 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.006 s.
-21:12:27:405 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:12:27:409 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.005 s.
-21:12:27:409 [01572] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.002 s.
-21:12:27:410 [05868] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:12:27:412 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.006 s.
-21:12:27:413 [05868] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
-21:12:27:414 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.004 s.
-21:12:27:414 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:12:27:417 [09320] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:12:27:418 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:12:27:425 [03628] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.007 s.
-21:13:13:277 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
-21:13:13:278 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.003 s.
-21:13:13:278 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.003 s.
-21:13:13:280 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
-21:13:13:283 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.008 s.
-21:13:13:285 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:13:13:285 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.002 s.
-21:13:13:286 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.002 s.
-21:13:13:287 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:13:13:287 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.005 s.
-21:13:13:288 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:13:13:290 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.002 s.
-21:13:13:290 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:13:13:292 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.005 s.
-21:13:13:292 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
-21:13:13:293 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.005 s.
-21:13:13:295 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.002 s.
-21:13:13:296 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.013 s.
-21:13:13:297 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.006 s.
-21:13:13:298 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.002 s.
-21:13:13:298 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.002 s.
-21:13:13:300 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:13:13:302 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.004 s.
-21:13:13:302 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.003 s.
-21:13:13:301 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:13:13:305 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.012 s.
-21:13:13:305 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:13:13:305 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.003 s.
-21:13:13:306 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:13:13:308 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
-21:13:13:308 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:13:13:310 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.004 s.
-21:13:13:310 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:13:13:310 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.008 s.
-21:13:13:313 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:13:13:314 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.003 s.
-21:13:13:315 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.009 s.
-21:13:13:315 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:13:13:317 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.001 s.
-21:13:13:317 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:13:13:318 [06132] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.001 s.
-21:13:13:318 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.006 s.
-21:13:13:320 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.002 s.
-21:13:13:322 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.002 s.
-21:13:13:323 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.004 s.
-21:13:13:320 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.005 s.
-21:13:13:324 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:13:13:325 [00268] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.007 s.
-21:13:13:327 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.003 s.
-21:13:13:328 [08584] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.003 s.
-21:13:13:329 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:13:13:332 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:13:13:334 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.006 s.
-21:13:13:334 [05392] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:13:13:338 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.004 s.
-21:13:13:343 [03140] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:13:13:346 [03140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.002 s.
-21:13:13:885 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
-21:13:13:886 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.003 s.
-21:13:13:887 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.003 s.
-21:13:13:888 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
-21:13:13:889 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:13:13:891 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.007 s.
-21:13:13:891 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.002 s.
-21:13:13:892 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.001 s.
-21:13:13:894 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.003 s.
-21:13:13:894 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.007 s.
-21:13:13:896 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.002 s.
-21:13:13:896 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.005 s.
-21:13:13:896 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.009 s.
-21:13:13:898 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.003 s.
-21:13:13:899 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:13:13:901 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.006 s.
-21:13:13:902 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.005 s.
-21:13:13:903 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.004 s.
-21:13:13:910 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.013 s.
-21:13:13:908 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:13:13:913 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
-21:13:13:913 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.011 s.
-21:13:13:904 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.005 s.
-21:13:13:921 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.008 s.
-21:13:13:928 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.017 s.
-21:13:13:931 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.002 s.
-21:13:13:933 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.001 s.
-21:13:13:936 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.005 s.
-21:13:13:936 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:13:13:936 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.005 s.
-21:13:13:936 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.005 s.
-21:13:13:939 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.003 s.
-21:13:13:940 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:13:13:940 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.004 s.
-21:13:13:942 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.002 s.
-21:13:13:943 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.006 s.
-21:13:13:943 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.002 s.
-21:13:13:946 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.005 s.
-21:13:13:947 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.003 s.
-21:13:13:949 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.005 s.
-21:13:13:949 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:13:13:949 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:13:13:951 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.02 s.
-21:13:13:951 [07404] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.001 s.
-21:13:13:952 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:13:13:953 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:13:13:954 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:13:13:955 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.001 s.
-21:13:13:955 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.008 s.
-21:13:13:957 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:13:13:958 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.002 s.
-21:13:13:959 [08712] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.006 s.
-21:13:13:959 [08272] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:13:13:960 [02460] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.002 s.
-21:13:13:961 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.005 s.
-21:13:13:966 [08576] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:13:13:968 [08576] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
-21:13:14:590 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
-21:13:14:590 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.002 s.
-21:13:14:591 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.003 s.
-21:13:14:593 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
-21:13:14:596 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.008 s.
-21:13:14:597 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:13:14:597 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.002 s.
-21:13:14:599 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:13:14:601 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
-21:13:14:599 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.003 s.
-21:13:14:600 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.003 s.
-21:13:14:605 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:13:14:605 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.003 s.
-21:13:14:605 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.003 s.
-21:13:14:607 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
-21:13:14:607 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:13:14:608 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.006 s.
-21:13:14:610 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.004 s.
-21:13:14:610 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.002 s.
-21:13:14:612 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.001 s.
-21:13:14:614 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.005 s.
-21:13:14:614 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:13:14:615 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.005 s.
-21:13:14:616 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.016 s.
-21:13:14:617 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:13:14:618 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.003 s.
-21:13:14:619 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.01 s.
-21:13:14:620 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.006 s.
-21:13:14:620 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:13:14:623 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:13:14:623 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
-21:13:14:623 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.005 s.
-21:13:14:626 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:13:14:629 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.008 s.
-21:13:14:627 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.003 s.
-21:13:14:629 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
-21:13:14:627 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:13:14:632 [00872] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.002 s.
-21:13:14:633 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.003 s.
-21:13:14:635 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.011 s.
-21:13:14:637 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.007 s.
-21:13:14:638 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.004 s.
-21:13:14:640 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:13:14:641 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.011 s.
-21:13:14:642 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.004 s.
-21:13:14:643 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:13:14:643 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.001 s.
-21:13:14:644 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:13:14:646 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:13:14:647 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.002 s.
-21:13:14:648 [08080] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:13:14:649 [05376] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:13:14:649 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.002 s.
-21:13:14:650 [08080] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
-21:13:14:652 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.002 s.
-21:13:14:652 [06044] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.008 s.
-21:13:14:656 [08704] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.003 s.
-21:13:43:031 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.002 s.
-21:13:43:031 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
-21:13:43:032 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.003 s.
-21:13:43:034 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
-21:13:43:037 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.001 s.
-21:13:43:037 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.007 s.
-21:13:43:037 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.002 s.
-21:13:43:038 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:13:43:039 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
-21:13:43:039 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.002 s.
-21:13:43:039 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:13:43:040 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.001 s.
-21:13:43:042 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.002 s.
-21:13:43:042 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.002 s.
-21:13:43:044 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.004 s.
-21:13:43:045 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.002 s.
-21:13:43:045 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.005 s.
-21:13:43:047 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.006 s.
-21:13:43:049 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.005 s.
-21:13:43:047 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.005 s.
-21:13:43:051 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.005 s.
-21:13:43:054 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:13:43:056 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.005 s.
-21:13:43:056 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:13:43:057 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.011 s.
-21:13:43:058 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.008 s.
-21:13:43:059 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.002 s.
-21:13:43:060 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
-21:13:43:060 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.012 s.
-21:13:43:060 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
-21:13:43:067 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:13:43:069 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.008 s.
-21:13:43:067 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.006 s.
-21:13:43:070 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.013 s.
-21:13:43:070 [08756] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.002 s.
-21:13:43:070 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.009 s.
-21:13:43:072 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:13:43:072 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.002 s.
-21:13:43:072 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.001 s.
-21:13:43:075 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.005 s.
-21:13:43:076 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.003 s.
-21:13:43:078 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.005 s.
-21:13:43:078 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.001 s.
-21:13:43:080 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:13:43:080 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.004 s.
-21:13:43:082 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.01 s.
-21:13:43:083 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:13:43:084 [04880] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.003 s.
-21:13:43:087 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.003 s.
-21:13:43:088 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.006 s.
-21:13:43:088 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.004 s.
-21:13:43:090 [03108] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:13:43:091 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:13:43:092 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.004 s.
-21:13:43:097 [05544] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:13:43:099 [05544] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
-21:13:43:100 [06100] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.008 s.
-21:14:01:447 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.001 s.
-21:14:01:447 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.002 s.
-21:14:01:448 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.003 s.
-21:14:01:450 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
-21:14:01:452 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.003 s.
-21:14:01:453 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.007 s.
-21:14:01:456 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.005 s.
-21:14:01:456 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
-21:14:01:459 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:14:01:459 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.006 s.
-21:14:01:460 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.006 s.
-21:14:01:461 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.004 s.
-21:14:01:461 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.009 s.
-21:14:01:464 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:14:01:465 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.003 s.
-21:14:01:465 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.005 s.
-21:14:01:465 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.001 s.
-21:14:01:466 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.005 s.
-21:14:01:467 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.007 s.
-21:14:01:468 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
-21:14:01:470 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
-21:14:01:471 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.005 s.
-21:14:01:472 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.002 s.
-21:14:01:474 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.001 s.
-21:14:01:474 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.002 s.
-21:14:01:476 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:14:01:477 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.01 s.
-21:14:01:478 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.001 s.
-21:14:01:480 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
-21:14:01:480 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.005 s.
-21:14:01:480 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.01 s.
-21:14:01:480 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:14:01:484 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.004 s.
-21:14:01:484 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.003 s.
-21:14:01:487 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.006 s.
-21:14:01:487 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:14:01:488 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.001 s.
-21:14:01:489 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:14:01:490 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:14:01:492 [05388] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.002 s.
-21:14:01:494 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.014 s.
-21:14:01:496 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.011 s.
-21:14:01:496 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.007 s.
-21:14:01:498 [03956] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.008 s.
-21:14:01:500 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:14:01:501 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.005 s.
-21:14:01:502 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.008 s.
-21:14:01:505 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.005 s.
-21:14:01:507 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.004 s.
-21:14:01:507 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:14:01:510 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:14:01:511 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:14:01:513 [02512] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.005 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:14:01:513 [03028] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:14:01:515 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:14:01:515 [02512] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.002 s.
-21:14:01:522 [09484] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.006 s.
-21:14:02:497 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.001 s.
-21:14:02:498 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.002 s.
-21:14:02:498 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.002 s.
-21:14:02:501 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.004 s.
-21:14:02:503 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.007 s.
-21:14:02:505 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:14:02:506 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.003 s.
-21:14:02:506 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.003 s.
-21:14:02:508 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:14:02:509 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.005 s.
-21:14:02:510 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.003 s.
-21:14:02:510 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.001 s.
-21:14:02:512 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.005 s.
-21:14:02:512 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.002 s.
-21:14:02:513 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.009 s.
-21:14:02:513 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:14:02:516 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.003 s.
-21:14:02:516 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.003 s.
-21:14:02:516 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.006 s.
-21:14:02:519 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:14:02:520 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.002 s.
-21:14:02:521 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.007 s.
-21:14:02:522 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:14:02:523 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.005 s.
-21:14:02:524 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.004 s.
-21:14:02:524 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:14:02:526 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.004 s.
-21:14:02:526 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:14:02:528 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.005 s.
-21:14:02:529 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:14:02:532 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.003 s.
-21:14:02:533 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.009 s.
-21:14:02:533 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.006 s.
-21:14:02:533 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.004 s.
-21:14:02:536 [06788] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.002 s.
-21:14:02:537 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.003 s.
-21:14:02:537 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:14:02:539 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:14:02:541 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:14:02:537 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.005 s.
-21:14:02:541 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.001 s.
-21:14:02:544 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:14:02:544 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.003 s.
-21:14:02:546 [07476] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.002 s.
-21:14:02:551 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.029 s.
-21:14:02:552 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.006 s.
-21:14:02:554 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.003 s.
-21:14:02:555 [05932] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.013 s.
-21:14:02:558 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:14:02:559 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.006 s.
-21:14:02:561 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.002 s.
-21:14:02:563 [09920] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:14:02:566 [09920] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.002 s.
-21:14:02:566 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.005 s.
-21:14:02:572 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:14:02:575 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:14:02:577 [04224] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:15:06:836 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.001 s.
-21:15:06:836 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.002 s.
-21:15:06:837 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.002 s.
-21:15:06:839 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.004 s.
-21:15:06:843 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.008 s.
-21:15:06:844 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.002 s.
-21:15:06:844 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.002 s.
-21:15:06:845 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.002 s.
-21:15:06:846 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:15:06:847 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.003 s.
-21:15:06:847 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.002 s.
-21:15:06:848 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.001 s.
-21:15:06:848 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.006 s.
-21:15:06:849 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.004 s.
-21:15:06:849 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:15:06:850 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.002 s.
-21:15:06:849 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
-21:15:06:852 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.005 s.
-21:15:06:854 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.002 s.
-21:15:06:855 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:15:06:856 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.005 s.
-21:15:06:856 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.005 s.
-21:15:06:857 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.002 s.
-21:15:06:858 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.002 s.
-21:15:06:859 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:15:06:861 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.004 s.
-21:15:06:862 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.001 s.
-21:15:06:863 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.011 s.
-21:15:06:864 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:15:06:864 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:15:06:866 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.002 s.
-21:15:06:867 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.009 s.
-21:15:06:869 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.001 s.
-21:15:06:869 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:15:06:870 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.006 s.
-21:15:06:871 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:15:06:871 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.013 s.
-21:15:06:872 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.002 s.
-21:15:06:872 [09980] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.001 s.
-21:15:06:873 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.001 s.
-21:15:06:874 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.009 s.
-21:15:06:875 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.003 s.
-21:15:06:875 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:15:06:877 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.004 s.
-21:15:06:877 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.003 s.
-21:15:06:885 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.003 s.
-21:15:06:881 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.006 s.
-21:15:06:888 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.003 s.
-21:15:06:893 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.011 s.
-21:15:06:896 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:15:06:898 [10152] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:15:06:905 [09112] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.011 s.
-21:15:06:912 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.006 s.
-21:15:06:915 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.003 s.
-21:15:06:920 [02732] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:15:06:922 [02732] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
-21:15:06:878 [07456] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.002 s.
-21:26:18:850 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LiftGammaGain.fx" in 0.002 s.
-21:26:18:850 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\AreaCopy.fx" in 0.003 s.
-21:26:18:853 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Color_Space_Curves.fx" in 0.005 s.
-21:26:18:853 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\fubax-shaders\Shaders\BlueNoiseMotionBlur.fx" in 0.005 s.
-21:26:18:854 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\LumaSharpen.fx" in 0.003 s.
-21:26:18:854 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Cartoon.fx" in 0.003 s.
-21:26:18:856 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Magical_Rectangle.fx" in 0.008 s.
-21:26:18:857 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\CAS.fx" in 0.002 s.
-21:26:18:857 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Curved_Levels.fx" in 0.003 s.
-21:26:18:858 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ChromaticAberration.fx" in 0.001 s.
-21:26:18:859 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_bloom.fx" in 0.004 s.
-21:26:18:860 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Saturation_Limit.fx" in 0.003 s.
-21:26:18:860 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\ColorMatrix.fx" in 0.001 s.
-21:26:18:862 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Filmic_Adaptation.fx" in 0.004 s.
-21:26:18:864 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Levels.fx" in 0.002 s.
-21:26:18:865 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Curves.fx" in 0.004 s.
-21:26:18:866 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color.fx" in 0.005 s.
-21:26:18:866 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_dof.fx" in 0.006 s.
-21:26:18:869 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\DPX.fx" in 0.002 s.
-21:26:18:869 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\qUINT_sharp.fx" in 0.003 s.
-21:26:18:869 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx" in 0.005 s.
-21:26:18:871 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\EyeAdaption.fx" in 0.002 s.
-21:26:18:873 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\BloomAndLensFlares.fx" in 0.018 s.
-21:26:18:874 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FakeHDR.fx" in 0.002 s.
-21:26:18:876 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PerfectPerspective.fx" in 0.002 s.
-21:26:18:876 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FilmGrain.fx" in 0.001 s.
-21:26:18:877 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_BlacknWhite.fx" in 0.007 s.
-21:26:18:878 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Selective_Color_v2.fx" in 0.012 s.
-21:26:18:879 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Balance.fx" in 0.002 s.
-21:26:18:882 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\SMAA.fx" in 0.012 s.
-21:26:18:882 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Technicolor.fx" in 0.003 s.
-21:26:18:884 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor.fx" in 0.001 s.
-21:26:18:884 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\FXAA.fx" in 0.007 s.
-21:26:18:886 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Technicolor2.fx" in 0.001 s.
-21:26:18:886 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Gradients.fx" in 0.004 s.
-21:26:18:886 [01296] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Levels.fx" in 0.001 s.
-21:26:18:886 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_05_Sharpening.fx" in 0.003 s.
-21:26:18:888 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Tonemap.fx" in 0.002 s.
-21:26:18:890 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vibrance.fx" in 0.001 s.
-21:26:18:890 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\PPFX_Bloom.fx" in 0.013 s.
-21:26:18:890 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Chromatic_Aberration.fx" in 0.003 s.
-21:26:18:891 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Isolation.fx" in 0.004 s.
-21:26:18:894 [01608] | INFO  | Successfully compiled "C:\Projects\Reshade\reshade-shaders\Shaders\Vignette.fx" in 0.003 s.
-21:26:18:895 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Color_Temperature.fx" in 0.004 s.
-21:26:18:896 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Depth_Slicer.fx" in 0.004 s.
-21:26:18:897 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\3areal-shaders\Shaders\Smart_Sharp.fx" in 0.006 s.
-21:26:18:901 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx" in 0.003 s.
-21:26:18:901 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
-21:26:18:904 [08056] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx" in 0.008 s.
-21:26:18:904 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
-21:26:18:907 [07812] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
-21:26:18:907 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01B_RT_Correct_Color.fx" in 0.005 s.
-21:26:18:911 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_01_Color_Gamut.fx" in 0.003 s.
-21:26:18:918 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bloom.fx" in 0.006 s.
-21:26:18:923 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx" in 0.004 s.
-21:26:18:927 [09772] | WARN  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_Cinetools_LUT.fx" in 0.004 s with warnings:
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with the same name but different dimensions
-warning: V__PD80_Technique_NameName__PD80_Technique_NameTex: another effect (PD80_02_Bonus_LUT_pack.fx) already created a texture with a different image file
-
-21:26:18:929 [09772] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
+21:51:03:108 [01636] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_02_LUT_Creator.fx" in 0.001 s.
+21:51:03:108 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Film_Grain.fx" in 0.005 s.
+21:51:03:111 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Luma_Fade.fx" in 0.002 s.
+21:51:03:113 [11140] | INFO  | Successfully compiled "C:\Projects\Reshade\prod80-shaders\Shaders\PD80_06_Posterize_Pixelate.fx" in 0.002 s.
+21:51:07:764 [10404] | INFO  | Redirecting RegisterClassExA(lpWndClassEx = 000000BFCEF8FB00 { "{F54CC444-0903-46F8-AF1E-105BE5E18F46}", style = 0x40 }) ...
+21:51:07:766 [10404] | INFO  | Redirecting RegisterClassExA(lpWndClassEx = 000000BFCEF8FB00 { "BE4025FB-44A7-44a8-9A6E-10FA8128031B", style = 0x40 }) ...
+21:51:33:501 [11260] | INFO  | Redirecting RegisterClassExA(lpWndClassEx = 000000BFCC4FF850 { "{F54CC444-0903-46F8-AF1E-105BE5E18F46}", style = 0x40 }) ...
+21:51:33:504 [11260] | INFO  | Redirecting RegisterClassExA(lpWndClassEx = 000000BFCC4FF850 { "BE4025FB-44A7-44a8-9A6E-10FA8128031B", style = 0x40 }) ...
+21:58:37:095 [05536] | INFO  | Resizing image data for texture 'V__texBDirt' from 4096x2048 to 1920x1080.
+22:00:05:666 [05536] | INFO  | Resizing image data for texture 'V__texBDirt' from 4096x2048 to 1920x1080.
